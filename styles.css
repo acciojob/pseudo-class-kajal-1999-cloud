@@ -1,18 +1,15 @@
 /*  your css code here. If applicable */
-.p-1::before{
-	color: rgb(255, 0, 0);
-	
-	content: "Before Element";
+
+
 /* 	font-size:20px; */
 /* 	font-weight: bold; */
 	
+div::before{
+	color:red;
+	content:"Before Element";
 }
 
-.p-1::after{
-	color: rgb(255, 0, 0);
-	
-	content: "After Element";
-/* 	font-size:20px; */
-/* 	font-weight: bold; */
-	
+div::after{
+	color:red;
+	content:"After Element";
 }
